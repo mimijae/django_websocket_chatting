@@ -1,0 +1,73 @@
+# 파이썬 관련
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyd
+# 가상 환경
+venv/
+*.venv
+venv.bak/
+*.virtualenv/
+
+# 데이터베이스
+*.db
+*.sqlite3
+db.sqlite3
+# Django 관련
+*.log
+*.pot
+*.pyc
+db.sqlite3
+
+# 개발 환경 설정
+.Python
+db.sqlite3
+db.sqlite3-journal
+
+# IDE 및 에디터 관련
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# 키 및 비밀번호 파일
+*.pem
+*.key
+
+# 배포 및 환경 관련
+.env
+*.local.env
+
+# 그 외의 임시 파일
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+.env.prod
+.env.prod.db
+
+
+# Ignore local development settings
+local_settings.py
+
+# mkdocs documentation
+/site
